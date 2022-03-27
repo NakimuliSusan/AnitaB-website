@@ -1,0 +1,16 @@
+*{
+    background-color: rgb(230, 221, 211);
+}
+ul>a{
+    font-size: large;
+    padding-right: 1cm;
+    text-align: right;
+    color: black;
+}
+a:hover{
+    background-color: rgb(37, 8, 29);
+}
+div{
+    float: right;
+}
+
