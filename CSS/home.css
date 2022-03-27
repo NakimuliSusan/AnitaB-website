@@ -1,0 +1,30 @@
+.button{
+    width: 240px;
+    height: 40px;
+    background: white;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color:whitesmoke;
+    transition: 0.4s ease;
+    
+   
+}
+
+.button:hover{
+    background:purple;
+    color: white;
+}
+ .button a{
+     text-decoration: none;
+     color: black;
+     font-weight: bold;
+     padding-bottom:50%;
+ } 
+ .move{
+      padding-top: 40%;
+ }
+
+  
