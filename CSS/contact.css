@@ -1,3 +1,8 @@
+.image{
+    position: absolute;
+    left: 4px;
+    top: 2px;
+}
 nav>a {
 
 text-align: right;
@@ -16,3 +21,12 @@ nav>a:hover{
     background-color: purple;
     color: rgb(10, 8, 8);
 }
+footer{
+    position: fixed;
+    bottom: 0;
+    padding-left: 40%;
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-style: normal;
+ }
