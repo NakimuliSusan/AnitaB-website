@@ -1,3 +1,4 @@
+
 .unity{
   float: left;
   margin-left: 30%;
@@ -8,4 +9,76 @@
    
 
     
+
+
+body{
+    background-color: white;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    display: inline;
+}
+li{
+    float: right;
+    padding: 10px;
+}
+ul li{
+    color: white;
+}
+li a {
+    display:block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+li a:hover{
+background-color: white;
+}
+
+body{
+    background-color: #fff;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    display: inline;
+}
+li{
+    float: right;
+    padding: 10px;
+
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color:rgb(78, 20, 78);
+    border-radius: 20%;
+}
+
+
+  
+  .nav{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+img{
+   background-position: fixed;
+   
+
+
+
 }
