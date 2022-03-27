@@ -1,3 +1,4 @@
+
 .button{
     width: 240px;
     height: 40px;
@@ -28,3 +29,121 @@
  }
 
   
+
+
+
+
+ h3{
+ color: rgb(73, 20, 73);
+   
+     
+     
+        
+    
+
+} 
+.container{
+
+    text-align: justify;
+    color: black;
+    font-style: normal;
+    font-family: cursive;
+    font-size: 20px;
+    position: relative; 
+    margin: 10%;
+    left: 1px;
+    content:2px;
+     background-color:white;
+     padding-top: 10%;
+     margin-left: 10%;
+
+
+.unity{
+  float: left;
+  margin-left: 30%;
+  margin-right: 40%;
+  padding-top: 10%;
+  
+
+   
+
+    
+
+
+body{
+    background-color: white;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    display: inline;
+}
+li{
+    float: right;
+    padding: 10px;
+}
+
+li a {
+    display:block;
+
+ul li{
+    color: white;
+}
+li a {
+    display:block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+li a:hover{
+background-color: white;
+}
+
+body{
+    background-color: #fff;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    display: inline;
+}
+li{
+    float: right;
+    padding: 10px;
+
+}
+li a {
+    display: block;
+
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+
+    background-color: rgba( rgb(75, 11, 41));
+}
+
+
+    background-color:rgb(78, 20, 78);
+    border-radius: 20%;
+}
+
+
+  
+  .nav{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+img{
+   background-position: 
