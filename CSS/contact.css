@@ -21,6 +21,44 @@ nav>a:hover{
     background-color: purple;
     color: rgb(10, 8, 8);
 }
+body {
+    background-color: #E5E5E5;
+    /* background-color: rgb(78, 20, 78); */
+    margin-top: 10%;
+    
+}
+h1 {
+    font-style:oblique;
+    text-align:middle;
+    color: whitesmoke;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 500px;
+    padding-bottom: 30%;
+    text-align: center;
+    /* margin-top: 5%; */
+}
+.leftcolumn{
+    font-style: normal;
+    width: 3000px;
+    height: 500px;
+    text-align:middle;
+    margin-top: 10%;
+
+
+}
+.rightcolumn{
+    font-style: oblique;
+    width: 3000px;
+    height: 500px;
+    padding-bottom: 50px;
+    margin-top: 10%;
+} 
+
 footer{
     position: fixed;
     bottom: 0;
