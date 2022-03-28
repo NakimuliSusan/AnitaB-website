@@ -1,0 +1,139 @@
+
+body{
+    background-color: #fff;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    display: inline;
+
+}
+
+li{
+    float: right;
+    padding: 10px;
+
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14;
+}
+
+li a:hover{
+    background-color: purple;
+}
+
+h3 {
+    color: rgb(75, 11, 41);
+    text-align: center;
+    text-decoration:solid;
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+.content p {
+    text-align: center;
+    color:rgb(92, 90, 91);
+    font-size: 20px;
+    padding-bottom: 2%;
+}
+
+.core-values h4 {
+    color: rgb(75, 11, 41);
+    text-align: center;
+    font-size: 20px ;
+}
+.value-flexrow{
+  align-items: center;
+  align-items: flex-start;
+  display: flex;
+  height: 296px;
+  font-size: 20px;
+  margin-top: 79px;
+  min-width: 992px;
+}
+
+ .innovation {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 174px;
+  min-height: 296px;
+  width: 220px;
+  color: purple;
+  padding-right: 20px;
+
+} 
+
+  
+.change {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 174px;
+  min-height: 296px;
+  width: 212px;
+   color: purple;
+}
+
+    .teamwork {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 174px;
+    min-height: 296px;
+    width: 212px;
+     color: purple;
+  }
+
+     
+  h4{
+      text-align: center;
+  }
+
+  nav logo{
+    align-self: flex-start;
+padding: 22px 20px;
+height: 80px;
+float:left ;
+font-size: 24px;
+font-weight: bold;
+text-transform: uppercase;
+color: #fff;
+}
+
+img{
+  border-radius: 100%;
+  padding-bottom: 0%;
+
+}
+
+.team-work{
+  padding-top: 10%;
+  font-size: 20px;
+  text-align: center;
+  color: purple;
+
+}
+
+.chan{
+  padding-top: 10%;
+  font-size: 20px;
+  text-align: center;
+  color: purple;
+}
+
+.inno{
+
+  padding-top: 10%;
+  font-size: 20px;
+  text-align: center;
+  color: purple;
+}
