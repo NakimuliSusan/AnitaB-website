@@ -1,6 +1,7 @@
 *
 .container{
-    text-align: center;
+    position: relative;
+    
 }
 ul>a{
     font-size: large;
@@ -20,7 +21,6 @@ img{
     padding: 15px;
 }
 p{
-    text-align: center;
     font-family: Barlow;
     font-weight: 400;
     font-style: normal;
