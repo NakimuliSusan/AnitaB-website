@@ -40,3 +40,7 @@ p{
 margin-left: 2cm;
 display: flex;
 }
+figcaption{
+    color:  rgba(86, 39, 67, 1);
+    ;
+}
