@@ -5,10 +5,11 @@ nav div.menuu{
     text-align: right;
 }
 
-
 p{
     color: rgb(59, 17, 52);
-
+}
+p.body{
+    margin-left: 3cm;
 }
 
 a{
@@ -44,10 +45,8 @@ a:hover{
     width: 150px;
     padding: 8px 15px;
     visibility: visible;
-    
-    
+     
 }
-
 
 .content p{
     text-align: center;
