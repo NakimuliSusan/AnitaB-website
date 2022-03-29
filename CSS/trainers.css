@@ -1,52 +1,61 @@
 
-.logo{
-    padding: 0px 20px;
-    height: 70px;
-    margin-right: 1cm;
+*{
+    background-color: white;
 }
-ul li{
-    font-size: 20px;
-    color:purple;
-    list-style: none;
-    padding: 5px 10px;
-    display: inline-block;
-    
-    margin-right: 1cm;
-    
-}
-nav{
+nav div.menuu{
     text-align: right;
+    margin-right: 2cm;
+}
+
+p{
+    color: rgb(59, 17, 52);
+}
+p.body{
+    margin-left: 3cm;
+    font-size: larger;
+}
+
+a{
+    padding-left: 30px;
 }
 a:hover{
-    background-color: rgb(10, 8, 37);
+    background-color: rgb(226, 220, 233);
 }
-
-
-img{
+.content img{
     border-radius: 50%;
-    padding: 0 30px 0 20x;
-    margin: 20px;
-    /* padding:0 30px 0 10px;
-    margin-top: 1cm; */
-    
 }
-p{
-    font-family: Barlow;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 24px;
-    text-align: center;
+.container{
+    padding-right: 10px;
 }
-#firstImage{
-    margin-left: 2cm;
-    display: flex;
+.content{
+    float: left;
+    position: relative;
+    margin-left: 80px;
+}
+.content div{
+   position: absolute;
+   visibility: hidden;
+   background-color: rgb(19, 100, 8);
+   border-radius: 400%;
+   color: white;
+   
+}
+.content:hover{
+    cursor: pointer;
+    visibility: hidden;
+}
+.content:hover div{
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+     
+}
 
+.content p{
+    text-align: center;
+    font-size: 20px;
 }
-#secondImages{
-margin-left: 2cm;
-display: flex;
-}
-figcaption{
-    color:  rgba(86, 39, 67, 1);
-    ;
-}
+
+
+
+
