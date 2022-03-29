@@ -1,4 +1,7 @@
 
+#logo{
+    position: relative;
+}
 ul li{
     font-size: 20px;
     color:purple;
@@ -17,12 +20,9 @@ a:hover{
 
 img{
     border-radius: 50%;
-    padding:0 30px 0 10px;
-    margin-top: 1cm;
+    /* padding:0 30px 0 10px;
+    margin-top: 1cm; */
     
-}
-div{
-    margin-left: 5cm;
 }
 p{
     font-family: Barlow;
@@ -30,4 +30,13 @@ p{
     font-style: normal;
     font-size: 24px;
     text-align: center;
+}
+#firstImage{
+    margin-left: 2cm;
+    display: flex;
+
+}
+#secondImages{
+margin-left: 2cm;
+display: flex;
 }
