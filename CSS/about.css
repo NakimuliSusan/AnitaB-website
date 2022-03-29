@@ -1,0 +1,119 @@
+ body{
+     background-color:#fff;
+ }
+ 
+ ul  {
+    list-style-type: none;
+    margin:  0;
+    padding: 0px;
+    display: inline;
+    /* float: left; */
+
+}
+li{
+    float: right;
+    padding: 10px;
+}
+li a {
+  display: block;
+  color: rgba(86, 39, 67, 1);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  height: 24px;
+
+}
+li a:hover {
+    background-color: rgb(224, 210, 226);
+  }
+h3 {
+    color: rgb(75, 11, 41);
+    text-align: center;
+    text-decoration:solid;
+    font-size: 30px;
+    font-family: fantasy;
+}
+.content p {
+    text-align: center;
+    color:rgb(92, 90, 91);
+    font-size: 20px;
+}
+.core-values h4 {
+    color: rgb(75, 11, 41);
+    text-align: center;
+    font-size: 30px ;
+}
+.core-values img {
+  border-radius: 50%;
+  height: 210px;
+  margin-right: 2px;
+  object-fit: cover;
+  width: 210px;
+}
+.value-flexrow{
+    align-items: center;
+    align-items: flex-start;
+    display: flex;
+    height: 296px;
+    margin-left: 15%;
+    margin-top: 79px;
+    min-width: 992px;
+  }
+  .team-work {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    min-height: 296px;
+    width: 212px;
+  }
+  .change {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    min-height: 296px;
+    width: 220px;
+  }
+  footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgba(86, 39, 67, 1);
+   color: #fff;
+   text-align: center;
+  }
+  .teamwork {
+  letter-spacing: 0;
+  margin-left: 40%;
+  margin-right:20%;
+  margin-top: 45px;
+  min-height: 38px;
+  min-width: 144px;
+  font-size:20px;
+  color: rgba(86, 39, 67, 1);
+
+  }
+  .chan {
+    letter-spacing: 0;
+    margin-left: 35%;
+    margin-right: 20%;
+    margin-top: 45px;
+    min-height: 38px;
+    min-width: 145px;
+    font-size: 20px;
+    color: rgba(86, 39, 67, 1);
+
+  }
+  .inno {
+    letter-spacing: 0;
+    margin-left: 25%;
+    margin-right:20%;
+    margin-top: 45px;
+    min-height: 38px;
+    min-width: 145px;
+    font-size: 20px;
+    color: rgba(86, 39, 67, 1);
+
+  }

@@ -1,36 +1,968 @@
-.column {
-  float: left;
-  width: 15.8%;
-  padding: 2px;
+
+body{
+    background-color:#fff;
 }
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+ul  {
+   list-style-type: none;
+   margin:  0;
+   padding: 0px;
+   display: inline;
+   /* float: left; */
+
 }
-ul li{
-  list-style: none;
+li{
+   float: right;
+   padding: 10px;
+}
+li a {
+ display: block;
+ color: rgba(86, 39, 67, 1);
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ height: 24px;
+
+}
+li a:hover {
+   background-color: rgb(224, 210, 226);
+ }
+ @import url("https://fonts.googleapis.com/css?family=Inter:400,500|Barlow:400,700,500|Lobster:400|Playfair+Display:400");
+
+.gallery {
+  align-items: center;
+  background-color: 
+#ecebeb;
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  padding: 21px 93px;
+  width: 1440px;
 }
 
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
 
+.row-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 147px;
+  margin-top: 17px;
+  margin-left: 9%;
+  margin-right:5%;
+  min-width: 1032px;
+}
 
+.shirleen {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 32px;
+  min-height: 147px;
+  width: 120px;
+}
 
+.shirleen-gathungu {
+  height: 120px;
+  width: 120px;
+}
 
+.shirleen-gathungu-1 {
+  letter-spacing: 0;
+  margin-left: 1px;
+  margin-top: 12px;
+  min-height: 15px;
+  min-width: 105px;
+}
 
+.lucy-karimi {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 32px;
+  min-height: 147px;
+  width: 120px;
+}
 
+.lucy-karimi-1 {
+  height: 120px;
+  width: 120px;
+}
 
+.name-3 {
+  letter-spacing: 0;
+  margin-top: 12px;
+  min-height: 15px;
+  min-width: 66px;
+}
 
+.effence {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 147px;
+  width: 120px;
+}
 
+.effence-kamau {
+  height: 120px;
+  object-fit: cover;
+  width: 120px;
+}
 
+.effence-kamau-1 {
+  letter-spacing: 0;
+  margin-top: 12px;
+  min-height: 15px;
+  min-width: 86px;
+}
 
+.maryanne {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 36px;
+  min-height: 147px;
+  width: 120px;
+}
 
+.name-4 {
+  letter-spacing: 0;
+  margin-top: 12px;
+  min-height: 15px;
+  min-width: 108px;
+}
 
+.maryann {
+  height: 120px;
+  object-fit: cover;
+  width: 120px;
+}
 
+.nancy-awuor {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 28px;
+  min-height: 147px;
+  width: 120px;
+}
 
+.name-5 {
+  letter-spacing: 0;
+  margin-top: 12px;
+  min-height: 15px;
+  min-width: 76px;
+}
 
+.nancy-awuor-1 {
+  height: 120px;
+  width: 120px;
+}
 
+.judy-wanjiru {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 32px;
+  min-height: 147px;
+  width: 120px;
+}
 
-  
-  
+.judy-wanjiru-1 {
+  height: 120px;
+  object-fit: cover;
+  width: 120px;
+}
 
+.name-2 {
+  letter-spacing: 0;
+  margin-left: 1px;
+  margin-top: 12px;
+  min-height: 15px;
+  min-width: 73px;
+}
+
+.mercy-yugi {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 32px;
+  min-height: 147px;
+  width: 120px;
+}
+
+.mercy-yugi-1 {
+  height: 120px;
+  object-fit: cover;
+  width: 120px;
+}
+
+.mercy-yugi-2 {
+  letter-spacing: 0;
+  margin-top: 12px;
+  min-height: 15px;
+  min-width: 64px;
+}
+
+.row-4 {
+  align-items: flex-start;
+  display: flex;
+  height: 145px;
+  margin-right:5%;
+  margin-left:8%;
+  margin-top: 16px;
+  min-width: 1045px;
+}
+
+.angara-marie {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 39px;
+  min-height: 144px;
+  width: 120px;
+}
+
+.angara-marie-tessa {
+  letter-spacing: 0;
+  margin-left: 4px;
+  margin-top: 9px;
+  min-height: 15px;
+}
+
+.angara-tessa-marie {
+  height: 120px;
+  object-fit: cover;
+  width: 120px;
+}
+
+.pascaline-kayitete {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 33px;
+  min-height: 144px;
+  width: 120px;
+}
+
+.pascaline-kayitete-1 {
+  height: 120px;
+  width: 120px;
+}
+
+.pascaline-kayitete-2 {
+  letter-spacing: 0;
+  margin-top: 9px;
+  min-height: 15px;
+  min-width: 104px;
+}
+
+.esther {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 35px;
+  min-height: 144px;
+  width: 120px;
+}
+
+.esther-owiti {
+  height: 120px;
+  object-fit: cover;
+  width: 120px;
+}
+
+.name-8 {
+  letter-spacing: 0;
+  margin-left: 1px;
+  margin-top: 9px;
+  min-height: 15px;
+  min-width: 69px;
+}
+
+.jeruto {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 26px;
+  min-height: 144px;
+  width: 120px;
+}
+
+.phelisia-jeruto {
+  height: 120px;
+  width: 120px;
+}
+
+.phelisia-jeruto-1 {
+  letter-spacing: 0;
+  margin-top: 9px;
+  min-height: 15px;
+  min-width: 84px;
+}
+
+.mercy-kirigo {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 22px;
+  min-height: 144px;
+  width: 120px;
+}
+
+.mercy-kirigo-1 {
+  height: 120px;
+  width: 120px;
+}
+
+.mercy-kirigo-2 {
+  letter-spacing: 0;
+  margin-top: 9px;
+  min-height: 15px;
+  min-width: 72px;
+  text-decoration: underline;
+}
+
+.grace-waceke {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  min-height: 145px;
+  width: 130px;
+}
+
+.grace-waceke-mwangi {
+  height: 120px;
+  margin-right: 4.61px;
+  object-fit: cover;
+  width: 120px;
+}
+
+.name-7 {
+  letter-spacing: 0;
+  margin-top: 10px;
+  min-height: 15px;
+  min-width: 130px;
+}
+
+.salma-suleiman {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  min-height: 144px;
+  width: 120px;
+}
+
+.salma-suleiman-2 {
+  letter-spacing: 0;
+  margin-top: 9px;
+  min-height: 15px;
+  min-width: 90px;
+}
+
+.salma-suleiman-1 {
+  height: 120px;
+  width: 120px;
+}
+
+.row-5 {
+  align-items: flex-start;
+  display: flex;
+  height: 148px;
+  margin-right:5%px;
+  margin-left:8%;
+  margin-top: 12px;
+  min-width: 1077px;
+}
+
+.shamim-obuya {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 38px;
+  min-height: 148px;
+  width: 120px;
+}
+
+.shamim-obuya-gard {
+  height: 120px;
+  object-fit: cover;
+  width: 120px;
+}
+
+.shamim-obuya-1 {
+  letter-spacing: 0;
+  margin-top: 13px;
+  min-height: 15px;
+  min-width: 86px;
+}
+
+.saido-omar {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 39px;
+  min-height: 148px;
+  width: 120px;
+}
+
+.saido-omar-2 {
+  letter-spacing: 0;
+  margin-left: 1px;
+  margin-top: 13px;
+  min-height: 15px;
+  min-width: 67px;
+}
+
+.saido-omar-1 {
+  height: 120px;
+  object-fit: cover;
+  width: 120px;
+}
+
+.brenda {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  min-height: 147px;
+  width: 120px;
+}
+
+.name-9 {
+  letter-spacing: 0;
+  margin-left: 1px;
+  margin-top: 12px;
+  min-height: 15px;
+  min-width: 83px;
+}
+
+.brenda-murugi {
+  height: 120px;
+  object-fit: cover;
+  width: 120px;
+}
+
+.naima {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 41px;
+  min-height: 148px;
+  width: 120px;
+}
+
+.naima-salim {
+  height: 120px;
+  width: 120px;
+}
+
+.naima-salim-1 {
+  letter-spacing: 0;
+  margin-top: 13px;
+  min-height: 15px;
+  min-width: 70px;
+}
+
+.joyce-nkimala {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 45px;
+  min-height: 148px;
+  width: 120px;
+}
+
+.name-10 {
+  letter-spacing: 0;
+  margin-top: 13px;
+  min-height: 15px;
+  min-width: 104px;
+}
+
+.joyce-nkamalantoi {
+  height: 120px;
+  object-fit: cover;
+  width: 120px;
+}
+
+.rosemary {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 34px;
+  min-height: 148px;
+  width: 120px;
+}
+
+.rosemary-mwihaki {
+  height: 120px;
+  width: 120px;
+}
+
+.name {
+  letter-spacing: 0;
+  margin-left: 1px;
+  margin-top: 13px;
+  min-height: 15px;
+  min-width: 107px;
+}
+
+.akuot-philip {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 147px;
+  width: 120px;
+}
+
+.akuot-phillip {
+  height: 120px;
+  object-fit: cover;
+  width: 120px;
+}
+
+.akuot-phillip-1 {
+  letter-spacing: 0;
+  margin-top: 12px;
+  min-height: 15px;
+  min-width: 70px;
+}
+
+.row-1 {
+  align-items: center;
+  display: flex;
+  height: 149px;
+  margin-top:30px;
+  margin-left:9%;
+  margin-right:5%;
+  min-width: 1048px;
+}
+
+.benedict {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 32px;
+  min-height: 147px;
+  width: 120px;
+}
+
+.atuheire-benadate {
+  height: 120px;
+  object-fit: cover;
+  width: 120px;
+}
+
+.atuheire-benadate-1 {
+  letter-spacing: 0;
+  margin-left: 4px;
+  margin-top: 12px;
+  min-height: 15px;
+  width: 112px;
+}
+
+.angela {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  min-height: 147px;
+  width: 120px;
+}
+
+.angella-munde {
+  height: 120px;
+  object-fit: cover;
+  width: 120px;
+}
+
+.angella-munde-1 {
+  letter-spacing: 0;
+  margin-left: 1px;
+  margin-top: 12px;
+  min-height: 15px;
+  min-width: 85px;
+}
+
+.chiri {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 32px;
+  min-height: 147px;
+  width: 120px;
+}
+
+.mercy-kemboi {
+  height: 120px;
+  object-fit: cover;
+  width: 120px;
+}
+
+.mercy-kemboi-1 {
+  letter-spacing: 0;
+  margin-left: 1px;
+  margin-top: 12px;
+  min-height: 15px;
+  min-width: 81px;
+}
+
+.susan {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left:42px;
+  min-height: 149px;
+  width: 120px;
+}
+
+.nakimuli-mary-susan {
+  height: 122px;
+  width: 126px;
+}
+
+.name-1 {
+  letter-spacing: 0;
+  margin-top: 12px;
+  min-height: 15px;
+  margin-left:4px;
+}
+
+.nganga {
+  align-items: center;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 35px;
+  margin-top: 1px;
+  min-height: 144px;
+  width: 120px;
+}
+
+.wairimu-zipproah {
+  height: 120px;
+  object-fit: cover;
+  width: 120px;
+}
+
+.wairimu-nganga {
+  letter-spacing: 0;
+  margin-left: 1px;
+  margin-top: 9px;
+  min-height: 15px;
+  min-width: 93px;
+}
+
+.swabrina {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 36px;
+  min-height: 147px;
+  width: 120px;
+}
+
+.swabrina-yusuf {
+  height: 120px;
+  object-fit: cover;
+  width: 120px;
+}
+
+.swabrina-yusuf-1 {
+  letter-spacing: 0;
+  margin-left: 1px;
+  margin-top: 12px;
+  min-height: 15px;
+  min-width: 89px;
+}
+
+.cudra-mohamed {
+  align-items: center;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1px;
+  min-height: 143px;
+  width: 120px;
+}
+
+.cudra-mohamed-1 {
+  height: 120px;
+  width: 120px;
+}
+
+.cudra-muhammed {
+  letter-spacing: 0;
+  margin-left: 1px;
+  margin-top: 8px;
+  min-height: 15px;
+  min-width: 105px;
+}
+
+.flex-row {
+  align-items: center;
+  align-self: flex-end;
+  display: flex;
+  min-width: 1174px;
+}
+
+.logo {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/623f724cf6a94c4ce7531ad0/releases/623f7338e4b4dc08d13d42e6/img/learn-today--inspire-tomorrow-2@2x.png);
+  background-size: 100% 100%;
+  cursor: pointer;
+  height: 64px;
+  width: 104px;
+}
+
+.nav-bar {
+  align-items: center;
+  display: flex;
+  margin-left: 370px;
+  margin-top: 4px;
+  min-width: 700px;
+}
+
+.overlap-group {
+  align-items: flex-end;
+  background-color: var(--tawny-port);
+  border-radius: 5px;
+  display: flex;
+  height: 40px;
+  margin-left: 38px;
+  min-width: 96px;
+  padding: 8px 0;
+}
+
+.gallery-1 {
+  color: 
+#ffffff;
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-weight: 500;
+  letter-spacing: 0;
+  min-height: 24px;
+  width: 96px;
+}
+
+.contact {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 24px;
+  margin-left: 74px;
+  margin-top: 6px;
+  min-width: 98px;
+}
+
+.place-1 {
+  letter-spacing: 0;
+  min-height: 24px;
+  width: 96px;
+}
+
+.about {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 24px;
+  margin-left: 49px;
+  margin-top: 6px;
+  min-width: 122px;
+}
+
+.about-us {
+  letter-spacing: 0;
+  min-height: 24px;
+  width: 120px;
+}
+
+.home {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 24px;
+  margin-top: 6px;
+  min-width: 82px;
+}
+
+.place {
+  letter-spacing: 0;
+  min-height: 24px;
+  width: 80px;
+}
+
+.trainers {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 24px;
+  margin-left: 45px;
+  margin-top: 6px;
+  min-width: 98px;
+}
+
+.trainers-1 {
+  letter-spacing: 0;
+  min-height: 24px;
+  width: 96px;
+}
+
+.row-3 {
+  align-items: flex-end;
+  display: flex;
+  height: 149px;
+  margin-top: 17px;
+  margin-left:8%;
+  margin-right: 5%;
+  min-width: 1042px;
+}
+
+.nyawera-tut {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 27px;
+  min-height: 148px;
+  width: 120px;
+}
+
+.nyawera-tut-1 {
+  height: 120px;
+  object-fit: cover;
+  width: 120px;
+}
+
+.nyawera-tut-2 {
+  letter-spacing: 0;
+  margin-top: 13px;
+  min-height: 15px;
+  min-width: 72px;
+}
+
+.elizabeth-ampurira {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 37px;
+  min-height: 148px;
+  width: 120px;
+}
+
+.ampurira-elizabeth {
+  height: 120px;
+  object-fit: cover;
+  width: 120px;
+}
+
+.conslate-koyo {
+  align-items: center;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 34px;
+  min-height: 148px;
+  width: 120px;
+}
+
+.conslate-koyo-2 {
+  letter-spacing: 0;
+  margin-top: 12px;
+  min-height: 16px;
+  width: 88px;
+}
+
+.conslate-koyo-1 {
+  height: 120px;
+  width: 120px;
+}
+
+.verite-umuhonza {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  min-height: 148px;
+  width: 120px;
+}
+
+.verite-umuhoza {
+  letter-spacing: 0;
+  margin-left: 1px;
+  margin-top: 13px;
+  min-height: 15px;
+  min-width: 91px;
+}
+
+.umuhoza-natete-verite {
+  height: 120px;
+  width: 120px;
+}
+
+.queenter-odoyo {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 148px;
+  width: 120px;
+}
+
+.queenter-odoyo-1 {
+  height: 120px;
+  object-fit: cover;
+  width: 120px;
+}
+
+.queenter-odoyo-2 {
+  letter-spacing: 0;
+  margin-top: 13px;
+  min-height: 15px;
+  min-width: 94px;
+}
+
+.joanna {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  min-height: 148px;
+  width: 120px;
+}
+
+.joanna-munduru {
+  height: 120px;
+  width: 120px;
+}
+
+.name-6 {
+  letter-spacing: 0;
+  margin-top: 13px;
+  min-height: 15px;
+  min-width: 96px;
+}
+
+.zuenah-macharia {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 34px;
+  min-height: 148px;
+  width: 120px;
+}
+
+.zuenah-macharia-1 {
+  height: 120px;
+  width: 120px;
+}
+
+.zuenah-macharia-2 {
+  letter-spacing: 0;
+  margin-top: 13px;
+  min-height: 15px;
+  min-width: 98px;
+}
