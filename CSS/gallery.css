@@ -1,0 +1,36 @@
+.column {
+  float: left;
+  width: 15.8%;
+  padding: 2px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+ul li{
+  list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
