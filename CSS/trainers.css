@@ -1,16 +1,59 @@
 *{
-    background-color: rgb(230, 221, 211);
+    background-color: white;
 }
-ul>a{
-    font-size: large;
-    padding-right: 1cm;
+nav div.menuu{
     text-align: right;
-    color: black;
+}
+
+
+p{
+    color: rgb(59, 17, 52);
+
+}
+
+a{
+    padding-left: 30px;
 }
 a:hover{
-    background-color: rgb(37, 8, 29);
+    background-color: rgb(226, 220, 233);
 }
-div{
-    float: right;
+.content img{
+    border-radius: 50%;
 }
+.container{
+    padding-right: 10px;
+}
+.content{
+    float: left;
+    position: relative;
+    margin-left: 80px;
+}
+.content div{
+   position: absolute;
+   visibility: hidden;
+   background-color: rgb(19, 100, 8);
+   border-radius: 400%;
+   color: white;
+   
+}
+.content:hover{
+    cursor: pointer;
+    visibility: hidden;
+}
+.content:hover div{
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    
+    
+}
+
+
+.content p{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
 
