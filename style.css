@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(78, 20, 78);
+    
+    
+}
+h1 {
+    font-style:oblique;
+    text-align:middle;
+    color: whitesmoke;
+}
+.column{
+    font-style: normal;
+    width: 2000px;
+    text-align:middle;
+
+
+
+}
