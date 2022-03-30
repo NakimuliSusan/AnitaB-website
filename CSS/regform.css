@@ -2,11 +2,12 @@
     border-radius: 5px;
 }
 .regform{
-    padding-left: 450px;
+    padding-left: 500px;
 }
 
 body{
-    background-color: #ffadef;
+    background-color:#ffafde;
+
 
 }
 
@@ -24,3 +25,19 @@ body{
 .lastname{
     padding-top: 20px;
 }
+ h1:hover{
+     background-color: bisque;
+     
+ }
+input[type=text] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  input[type=number] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
