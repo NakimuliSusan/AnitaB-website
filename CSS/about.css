@@ -1,0 +1,109 @@
+
+      *
+      li{
+        float: right;
+        padding: 10px;
+      }
+     img{
+        margin-bottom: auto;
+     }
+
+      .about{
+        text-align: center;
+        font-family: sans-serif;
+      }
+      li a{
+        display: block;
+        color: purple;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: black;
+        font-size: 14;
+      }
+      p {
+        display: block;
+        text-align: center;
+        font-size: 20px;
+        padding-top: 0%;
+      }
+      .about{
+        text-decoration-color: rgb(177, 154, 177);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 10px 15px;
+        display: flow-root;
+        text-align: center;
+      }
+      li a:hover {
+              background-color:rgb(224, 31, 199);
+      
+      }
+      ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0px;
+        display: inline;
+        font-size: 20px;
+        
+      }
+      h1{
+        background-size: 0px;
+          text-decoration-color: purple;
+          color: purple;
+          padding-bottom: 10%;
+      }
+      h2{
+        text-shadow: purple;
+        color: purple;
+      }
+      value-flexrow{
+        align-items: center;
+        align-items: flex-start;
+        display: flex;
+        height: 296px;
+        margin-left: 20px;
+        margin-top: 79px;
+        min-width: 992px;
+      }
+      change {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-left: 174px;
+        min-height: 150px;
+        width: 220px;
+        flex: 50%;
+        
+      }
+      
+      Teamwork {
+        
+        align-items: center;
+        float: right;
+        flex-direction: column;
+        margin-left: 174px;
+        min-height: 150px;
+        width: 220px;
+        flex: 100%;
+        display: inline;
+        }
+      
+       innovation {
+        align-items: center;
+        display: flexbox;
+        flex-direction: column;
+        margin-left: 174px;
+        min-height: 150px;
+        width: 220px;
+          
+       }
+      img{
+        border-radius: 80%;
+      }
+      img {
+        width: 20%;
+        margin: auto;
+        display: flex;
+      }
+      nav img{
+        padding-top:  10%;
+      }
