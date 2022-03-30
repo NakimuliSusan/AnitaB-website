@@ -29,19 +29,4 @@ li a {
 }
 li a:hover {
     background-color: rgb(224, 210, 226);
-  }
-  
-
-h1 {
-    font-style:oblique;
-    text-align:middle;
-    color: whitesmoke;
-}
-.column{
-    font-style: normal;
-    width: 2000px;
-    text-align:middle;
-
-
-
 }
