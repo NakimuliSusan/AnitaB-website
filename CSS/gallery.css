@@ -24,7 +24,8 @@ li a {
 
 }
 li a:hover {
-   background-color: rgb(224, 210, 226);
+  background-color:rgb(194, 186, 194);
+  border-radius: 20%;
  }
  @import url("https://fonts.googleapis.com/css?family=Inter:400,500|Barlow:400,700,500|Lobster:400|Playfair+Display:400");
 
@@ -133,6 +134,7 @@ li a:hover {
   margin-top: 12px;
   min-height: 15px;
   min-width: 108px;
+  color:rgb(194, 186, 194);
 }
 
 .maryann {

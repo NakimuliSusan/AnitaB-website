@@ -25,6 +25,7 @@ li a {
 }
 li a:hover {
    background-color: rgb(224, 210, 226);
+   border-radius:20%;
  }
 .content {
    text-align: center;

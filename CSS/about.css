@@ -24,7 +24,8 @@ li a {
 
 }
 li a:hover {
-   background-color: rgb(224, 210, 226);
+   background-color:rgb(228, 207, 228);
+   border-radius: 20%;
  }
 h3 {
    color: rgb(75, 11, 41);

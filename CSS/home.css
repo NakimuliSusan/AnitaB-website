@@ -12,13 +12,7 @@ body{
  li{
     color: black;
  }
- /* img{
-    width: 50%;
-    margin-left: 60%;
-    margin-right: -2%;
-    padding-top: 10%;
-    height: 10%;
-    float: right; */
+
  .us{
     padding-top: 20%;
     margin-bottom: 40%;
@@ -26,6 +20,14 @@ body{
  }
  h3{
     color: rgb(73, 30, 73);
+    font-size:30px;
+    margin-left:9% ;
+ }
+ p {
+     font-size:20px;
+     color:rgb(92,90,91);
+     margin-left:9%;
+     
  }
  .unity{
     float: left;
@@ -92,17 +94,20 @@ body{
         text-decoration: none;
         position: fixed;
     }
- .container .button{
-    width: 100px;
+ .Explore{
+    width: 120px;
     height: 40px;
     background: purple;
     border: none;
-    margin-top: 30px;
+    margin-top: 20px;
     font-size: 18px;
     border-radius: 10px;
     cursor: pointer;
     color:whitesmoke;
     transition: 0.4s ease;
+ }
+ img {
+     margin-left:2%;
  }
  .button:hover{
     background:white;
@@ -116,4 +121,7 @@ body{
  }
  .move{
       padding-top: 40%;
+ }
+ .pic {
+     margin-left:20%;
  }

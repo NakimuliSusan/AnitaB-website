@@ -1,58 +1,47 @@
-body {
-    background-color: rgb(78, 20, 78);
-    
-    
-}
-h1 {
-    font-style:oblique;
-    text-align:middle;
-    color: black;
-}
-.column{
-    font-style: normal;
-    width: 1000px;
-    height: 1000px;
-    text-align:middle;
-}
-*{
-    border-radius: 5px;
-    padding-left: 450px;
-}
-
-
 body{
-    background-color: #ffadef;
-
+    background-color:#fff;
+    display: flex;
 }
 
-.regform{
-    padding-left: 50px;
+ul  {
+   list-style-type: none;
+   margin:  0;
+   padding: 0px;
+   display: inline;
+   /* float: left; */
 
 }
-.firstname{
-    padding-top: 20px;
+li{
+   float: right;
+   padding: 10px;
 }
-.middlename{
-    padding-top: 20px;
+li a {
+ display: block;
+ color: rgba(86, 39, 67, 1);
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ height: 24px;
 
 }
-.lastname{
-    padding-top: 20px;
-}
- h1:hover{
-     background-color: bisque;
-     
+li a:hover {
+   background-color: rgb(224, 210, 226);
  }
- input[type=text] {
-    width: 30%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-  }
-  input[type=number] {
-    width: 30%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-  }
-
+ .right-column {
+     background-color: rgb(104, 99, 99,0.6);
+ }
+ .container-1 {
+    display:flex;
+    margin-top: 10%; 
+    margin-left: 5%;
+    margin-right: 5%;
+ }
+ button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+ }
