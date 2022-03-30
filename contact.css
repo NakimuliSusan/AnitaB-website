@@ -6,14 +6,53 @@ body {
 h1 {
     font-style:oblique;
     text-align:middle;
-    color: whitesmoke;
+    color: black;
 }
 .column{
     font-style: normal;
     width: 1000px;
     height: 1000px;
     text-align:middle;
+}
+*{
+    border-radius: 5px;
+    padding-left: 450px;
+}
 
 
+body{
+    background-color: #ffadef;
 
 }
+
+.regform{
+    padding-left: 50px;
+
+}
+.firstname{
+    padding-top: 20px;
+}
+.middlename{
+    padding-top: 20px;
+
+}
+.lastname{
+    padding-top: 20px;
+}
+ h1:hover{
+     background-color: bisque;
+     
+ }
+ input[type=text] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  input[type=number] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
