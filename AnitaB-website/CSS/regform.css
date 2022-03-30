@@ -1,0 +1,19 @@
+*{
+    border-radius: 5px;
+}
+body{
+    background-color: #ffafde;
+}
+.regform{
+    padding-left: 450px;
+}
+.firstname{
+    padding-top: 20px;
+}
+.middlename{
+    padding-top: 20px;
+}
+.lastname{
+    padding-top: 20px;
+    
+}
