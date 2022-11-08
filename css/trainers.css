@@ -1,4 +1,4 @@
-body{
+/* body{
     background-color:#fff;
 }
 
@@ -7,10 +7,12 @@ ul  {
    margin:  0;
    padding: 0px;
    display: inline;
-   /* float: left; */
-
+   /* float: left; 
 }
-li{
+   */
+
+
+/* li{
    float: right;
    padding: 10px;
 }
@@ -24,9 +26,9 @@ li a {
 
 }
 li a:hover {
-   background-color: rgb(224, 210, 226);
-   border-radius:20%;
- }
+   background-color:rgb(228, 207, 228);
+   border-radius: 20%;
+ }  */
 .content {
    text-align: center;
     color:rgb(92, 90, 91);
