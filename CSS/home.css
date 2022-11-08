@@ -1,0 +1,127 @@
+body{
+    background-image: url(pink.jpg);
+    background-position: 100%;
+    background-size:cover;
+    position:static;
+ }
+ ul li{
+    color: blue;
+    list-style: none;
+    text-align: center;
+ }
+ li{
+    color: black;
+ }
+
+ .us{
+    padding-top: 20%;
+    margin-bottom: 40%;
+    align-items: center;
+ }
+ h3{
+    color: rgb(73, 30, 73);
+    font-size:30px;
+    margin-left:9% ;
+ }
+ p {
+     font-size:20px;
+     color:rgb(92,90,91);
+     margin-left:9%;
+     
+ }
+ .unity{
+    float: left;
+    margin-left: 17%;
+    margin-right: 40%;
+    padding-bottom: 0%;
+    margin-bottom: -90%;
+    margin-top: 10%;
+    padding-left: 0%;
+    padding-bottom: 0%;
+    }
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0px;
+        display: inline;
+    }
+    li{
+        float: right;
+        padding: 10px;
+    }
+    ul li{
+        color: white;
+    }
+    li a {
+        display:block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    li a:hover{
+    background-color: white;
+    }
+    body{
+        background-color: #fff;
+    }
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0px;
+        display: inline;
+    }
+    li{
+        float: right;
+        padding: 10px;
+    }
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    li a:hover{
+        background-color:rgb(78, 20, 78);
+        border-radius: 20%;
+    }
+      .nav{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        position: fixed;
+    }
+ .Explore{
+    width: 120px;
+    height: 40px;
+    background: purple;
+    border: none;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color:whitesmoke;
+    transition: 0.4s ease;
+ }
+ img {
+     margin-left:2%;
+ }
+ .button:hover{
+    background:white;
+    color: white;
+ }
+ .button a{
+     text-decoration: none;
+     color: white;
+     font-weight: bold;
+     padding-bottom:50%;
+ }
+ .move{
+      padding-top: 40%;
+ }
+ .pic {
+     margin-left:20%;
+ }
