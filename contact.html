@@ -11,26 +11,6 @@
 </head>
 
 <body>
-    <h3>Contact us</h3>
-    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
-            <label for="Name" class="fcf-label">Your name</label>
-            <div class="fcf-input-group">
-                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
-            </div>
-        <div class="fcf-form-group">
-            <label for="Email" class="fcf-label">Your email address</label>
-            <div class="fcf-input-group">
-                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
-            </div>
-        <div class="fcf-form-group">
-            <label for="Message" class="fcf-label">Your message</label>
-            <div class="fcf-input-group">
-                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
-            </div>
-        </div>
-        <div class="fcf-form-group">
-            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
-      
 
     
         
@@ -52,7 +32,30 @@
      <div class="leftcolumn" style="background-color:rgba(86,39,67); width:40%;">
        <h1 style="color: whitesmoke; margin-left:10%;margin-top:5%; text-align: center;">Have a question or just want to say <br>
        Hi ,Drop us a message.</h1>
+    
+       <img class="image" src="hans.png">
+       </div>
 
+<div class="right-column" style="background-color: rgb(87, 13, 60,0.6);">
+    <h2>Contact Us</h2>
+    <form>
+        <label for="name">First name:</label>
+        <input type="text" id="name" placeholder="firstname" > <br> <br>
+        <label for="last-name">Last name:</label>
+        <input type="text"  id="last-name" name="lastname" placeholder="lastname"> <br> <br>
+        <label for="email">Email:</label>
+        <input style="margin-left:9%;" type="text" id="email" placeholder="email-address"> <br> <br>
+        <label for="message">Message</label>
+    <textarea style="margin-right:9%;" id="messso" name="message" placeholder="Type here" rows="4" cols="25">
+</textarea> <br>
+        <input type="submit" value="Submit Here"> <br>
+
+        <br>
+       
+       
+    </form> <br>
+    <button onclick="window.location.href = 'regform.html';" style="width: 20%; margin-bottom:5%; border-radius:20px;">Be a member</button>
+</div></div>
 <footer style ="
     position: fixed;
     left: 0;
