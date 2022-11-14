@@ -21,6 +21,9 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* border: 2px solid red; */
+    max-width: 65rem;
+    margin-inline: auto; /*inline - left and right,  block- top and bottom*/ 
    
 }
 .nav-links{
