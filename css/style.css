@@ -22,8 +22,9 @@ h1 {
     align-items: center;
     justify-content: space-between;
     /* border: 2px solid red; */
-    max-width: 65rem;
+    max-width: 60rem;
     margin-inline: auto; /*inline - left and right,  block- top and bottom*/ 
+    animation: slide-fwd-bottom 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
    
 }
 .nav-links{
@@ -54,5 +55,21 @@ h1 {
     padding:0.4rem ;
     border-radius: 0.5rem;
 }
+/*
+ * ----------------------------------------
+ * animation slide-fwd-bottom
+ * ----------------------------------------
+ */
+
+  @keyframes slide-fwd-bottom {
+    100% {
+              transform: translateZ(0) translateY(0);
+    }
+    0% {
+    
+              transform: translateZ(-160px) translateY(-100px);
+    }
+  }
+  
 
 

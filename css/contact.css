@@ -1,50 +1,6 @@
-/* body{
-    background-color:#fff;
-    display: flex;
+.contact-body{
+   background-color: #fafafa;
 }
-
-ul  {
-   list-style-type: none;
-   margin:  0;
-   padding: 0px;
-   display: inline; */
-   /* float: left; */
-/* 
-}
-li{
-   float: right;
-   padding: 10px;
-}
-li a {
- display: block;
- color: rgba(86, 39, 67, 1);
- text-align: center;
- padding: 14px 16px;
- text-decoration: none;
- height: 24px;
-
-}
-li a:hover {
-   background-color: rgb(224, 210, 226);
- }
- .right-column {
-     background-color: rgb(104, 99, 99,0.6);
- }
- .container-1 {
-    display:flex;
-    margin-top: 10%; 
-    margin-left: 5%;
-    margin-right: 5%;
- }
- button {
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
- } */
  .contact-main{
    min-height: 90.6vh;
    /* border: 2px solid red; */
@@ -60,8 +16,9 @@ li a:hover {
    display: grid;
    grid-template-columns: 50% 50%;
    /* min-height: 40vh; */
-   width: 55%;
+   width: 66%;
    margin-inline: center;
+   box-shadow: 0 0 5px hsl(80 37% 29%/0.4);
    
   
 
@@ -74,12 +31,16 @@ li a:hover {
 
  }
  .contact-info-right{
-   height: 65vh;
+   height: 70vh;
+   padding-right: 1rem;
+   background-color: rgba(255, 255, 255, 0.945);
+
+   
  }
 .contact-info{
    font-size: 1.2rem;
    font-family: 'Lobster', cursive;
-   color: #fff;
+   color: #ffffff;
    padding-inline: 1.5rem;
    margin-top: 3.5rem;
 }
@@ -92,12 +53,14 @@ li a:hover {
 .contact-form{
    padding: 1rem 2.5rem;
 }
-.contact-form h2{
+.contact-form-title {
    color: #562743;
+   animation: fade-in 1000ms ease-in-out;
 }
 .contact-form-container{
    display: grid;
-   gap: 2rem;
+   row-gap: 1rem;
+   column-gap: 2rem;
    grid-template-columns: 50% 50%;
 }
 .contact-form label{
@@ -116,6 +79,7 @@ font-family: 'Lobster', cursive;*/
    border: 0;
    border-bottom: 1px solid #d4d4d4;
    font-size: 0.7rem;
+   background-color: transparent;
 }
 .contact-form-input{
    display: flex;
@@ -128,6 +92,38 @@ font-family: 'Lobster', cursive;*/
 .contact-form-submit{
    border:0;
    margin-top: 1rem;
+   background-color: transparent;
+   font-family:  'Barlow', sans-serif;
+   text-transform: uppercase;
+   font-size: 0.8rem;
+   padding: 0;
+}
+.right-arrow{
+  font-size: 1rem;
+}
+.contact-form-email h2{
+   color: #cccccc;
+   font-family: 'Barlow', sans-serif;
+   font-size: 0.8rem;
+   margin-top: 1rem;
+} 
+.contact-form-email p{
+   font-size: 0.5rem;
+   font-family:'Barlow', sans-serif ;
+} 
+ 
+@keyframes fade-in {
+   
+   0%{
+      opacity: 0;
+      transform: translateY(-5vh);
+
+   }
+   100%{
+      opacity: 1;
+      transform: translateY(0);
+   }
+   
 }
 
  
